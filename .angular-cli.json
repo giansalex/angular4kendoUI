@@ -19,9 +19,14 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../kendo_ui/styles/kendo.common.min.css",
+        "../kendo_ui/styles/kendo.material.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../kendo_ui/js/jquery.min.js",
+        "../kendo_ui/js/kendo.all.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

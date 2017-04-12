@@ -7,6 +7,8 @@
 
 # dependencies
 /node_modules
+/kendo_ui/styles
+/kendo_ui/js
 
 # IDEs and editors
 /.idea
