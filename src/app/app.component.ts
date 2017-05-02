@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Angular 4 News - Kendo UI';
   support = 'Kendo Support Angular';
+  about = 'IMM CORP';
 }
